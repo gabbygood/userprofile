@@ -1,66 +1,31 @@
-import { Button, Image, StyleSheet, Text, View } from 'react-native'
+import { Button, Image, StatusBar, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import { COLORS } from '../constants'
+import { COLORS, images } from '../constants'
 
 export default function Profile() {
   return (
-    <SafeAreaView>
-      <View
-        style={{ flex1: 1, flexDirection: 'row', justifyContent: 'center' }}
-      >
-        <Text
-          style={{
-            fontFamily: 'bold',
-            fontSize: 24,
-            lineHeight: 22,
-            paddingHorizontal: 10,
-            alignContent: 'center',
-          }}
-        >
-          Gabrielle Goylan
-        </Text>
+    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
+      <StatusBar style={{ backgroundColor: COLORS.gray }} />
+      <View style={{ width: '100%' }}>
         <Image
-          style={{ borderRadius: 50, shadowOffset: 10 }}
-          source={require('../assets/images/meee2.jpg')}
+          source={images.cover}
+          resizeMethod='cover'
+          style={{ height: 228, width: '100%' }}
         />
       </View>
-      <View
-        style={{
-          width: 700,
-          height: 10,
-          backgroundColor: COLORS.black,
-          alignContent: 'center',
-          marginLeft: 700,
-          marginTop: 20,
-        }}
-      ></View>
-      <View
-        style={{
-          flex: 1,
-          backgroundColor: 'none',
-          alignContent: 'center',
-          marginLeft: 1000,
-          marginTop: 100,
-        }}
-      >
-        <Text
+      <View style={{ flex: 1, alignItems: 'center' }}>
+        <Image
+          source={require('../assets/images/meee2.jpg')}
+          resizeMode='contain'
           style={{
-            fontFamily: 'bold',
-            fontSize: 20,
-            lineHeight: 20,
-            marginVertical: 10,
-            backgroundColor: 'gray',
-            paddingLeft: 20,
-            width: 120,
-            height: 100,
-            borderRadius: 20,
-            alignContent: 'center',
-            justifyContent: 'center',
+            height: 155,
+            width: 155,
+            borderRadius: 999,
+            borderColor: COLORS.primary,
+            borderWidth: 2,
           }}
-        >
-          LOGOUT
-        </Text>
+        />
       </View>
     </SafeAreaView>
   )
