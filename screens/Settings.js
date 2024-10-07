@@ -1,4 +1,4 @@
-import { ScrollView, Text, TouchableOpacity, View } from 'react-native'
+import { ScrollView, StatusBar, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { COLORS, FONTS } from '../constants'
 import { MaterialIcons } from '@expo/vector-icons'
@@ -85,6 +85,7 @@ const Settings = ({ navigation }) => {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
+      <StatusBar style={{ backgroundColor: COLORS.gray }} />
       <View
         style={{
           marginHorizontal: 12,
