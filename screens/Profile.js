@@ -28,7 +28,7 @@ export default function Profile() {
           }}
         />
         <Text style={{ marginLeft: 0, fontWeight: 400, fontSize: 16, fontFamily: "bold" }}>
-          Gabrielle Goylan
+          Gabrielle Goylan - IT3R10
         </Text>
         <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores deserunt aliquam animi molestiae ratione quibusdam velit excepturi iusto. Inventore, quod.</Text>
         <View style={{ flexDirection: "column", width: "100%", alignItems: "center", marginTop: 10 }}>
