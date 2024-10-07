@@ -24,8 +24,19 @@ export default function Profile() {
             borderRadius: 999,
             borderColor: COLORS.primary,
             borderWidth: 2,
+            marginTop: -90
           }}
         />
+        <Text style={{ marginLeft: 0, fontWeight: 400, fontSize: 16, fontFamily: "bold" }}>
+          Gabrielle Goylan
+        </Text>
+        <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores deserunt aliquam animi molestiae ratione quibusdam velit excepturi iusto. Inventore, quod.</Text>
+        <View style={{ flexDirection: "column", width: "100%", alignItems: "center", marginTop: 10 }}>
+          <View><Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ea?</Text></View>
+          <View><Text>Skills 1</Text></View>
+          <View><Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ea?</Text></View>
+          <View><Text>Skill 2</Text></View>
+        </View>
       </View>
     </SafeAreaView>
   )
