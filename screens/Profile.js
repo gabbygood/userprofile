@@ -51,7 +51,7 @@ export default function Profile() {
             lineHeight: 20,
             marginVertical: 10,
             backgroundColor: 'gray',
-            padding: 4,
+            paddingLeft: 20,
             width: 120,
             height: 100,
             borderRadius: 20,
@@ -59,7 +59,7 @@ export default function Profile() {
             justifyContent: 'center',
           }}
         >
-          Account
+          LOGOUT
         </Text>
       </View>
     </SafeAreaView>
