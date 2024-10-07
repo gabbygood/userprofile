@@ -37,6 +37,7 @@ export default function Profile() {
           <View style={{ backgroundColor: "gray", margin: 5, borderRadius: 10 }}><Text style={{ padding: 10 }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ea?</Text></View>
           <View style={{ backgroundColor: "gray", margin: 5, borderRadius: 10 }}><Text style={{ padding: 10 }}>Skill 2</Text></View>
         </View>
+        <Button color={"red"}>LOGOUT</Button>
       </View>
     </SafeAreaView>
   )
