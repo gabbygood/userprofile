@@ -32,10 +32,10 @@ export default function Profile() {
         </Text>
         <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores deserunt aliquam animi molestiae ratione quibusdam velit excepturi iusto. Inventore, quod.</Text>
         <View style={{ flexDirection: "column", width: "100%", alignItems: "center", marginTop: 10 }}>
-          <View><Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ea?</Text></View>
-          <View><Text>Skills 1</Text></View>
-          <View><Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ea?</Text></View>
-          <View><Text>Skill 2</Text></View>
+          <View style={{ backgroundColor: "gray", margin: 5, borderRadius: 10 }}><Text style={{ padding: 10 }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ea?</Text></View>
+          <View style={{ backgroundColor: "gray", margin: 5, borderRadius: 10 }}><Text style={{ padding: 10 }}>Skills 1</Text></View>
+          <View style={{ backgroundColor: "gray", margin: 5, borderRadius: 10 }}><Text style={{ padding: 10 }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ea?</Text></View>
+          <View style={{ backgroundColor: "gray", margin: 5, borderRadius: 10 }}><Text style={{ padding: 10 }}>Skill 2</Text></View>
         </View>
       </View>
     </SafeAreaView>
