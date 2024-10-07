@@ -34,12 +34,12 @@ const Settings = ({ navigation }) => {
   ]
 
 
-  const renderSettingsItem = ({ icon, text, action }) => {
+  const renderSettingsItem = ({ icon, text, action }) => (
     <TouchableOpacity onPress={action} style={{ flexDirection: "row", alignItems: "center", paddingVertical: 8, paddingLeft: 12 }}>
-      <MaterialIcons name="icon" size={24} color="black" />
-      <Text style={{ marginLeft: 0, fontWeight: 400, fontSize: 16 }}>gefewyu</Text>
+      <MaterialIcons name={icon} size={24} color="black" />
+      <Text style={{ marginLeft: 0, fontWeight: 400, fontSize: 16 }}>{text}</Text>
     </TouchableOpacity>
-  }
+  )
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
